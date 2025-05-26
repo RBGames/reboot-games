@@ -189,13 +189,13 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 720px) {
+@media (width >= 640px) {
   .game-images img {
-    flex: 1 1 30%;
+    width: 25%;
   }
 
   .store-button {
-    min-width: 150px;
+    width: 30%;
   }
   
 }
