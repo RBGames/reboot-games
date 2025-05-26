@@ -1,48 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reboot Games</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            padding: 20px;
-            max-width: 800px;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Reboot Games</title>
 </head>
 <body>
-    <h1>Reboot Games</h1>
 
-    <h2>My games</h2>
+    <header>
+        <nav class="navbar">
+          <div class="nav-title">Reboot Games</div>
+          <ul class="nav-links">
+            <li><a href="index.html">My Games</a></li>
+            <li><a href="akc/privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </nav>
+    </header>
+      
 
-    <section id="game-section" style="text-align: center; padding: 2em; background-color: #f9f9f9;">
-  <h3>A Tiny Quest</h3>
-  <p>
-    <a href="https://reboot-games.itch.io/tiny-quest" target="_blank" style="font-size: 1.2em; font-weight: bold; color: #ff5a5f; text-decoration: none;">
-      👉 Download and Play on itch.io
-    </a>
-  </p>
-</section>
+  <main>
 
+    <section id="my-games">
+        <h2>My Games</h2>
+      
+        <div class="game">
+          <div class="game-info">
+            <h3>A King's Comeback</h3>
+            <p>An intense platforming adventure where precision and timing rule. Survive traps, master wall jumps, and uncover secrets.</p>
+      
+            <!-- Optional images -->
+            <div class="game-images">
+              <img src="img/akc1.png" alt="A King's Comeback" />
+              <img src="img/akc2.png" alt="A King's Comeback" />
+            </div>
+      
+            <div class="coming-soon">Coming Soon</div>
 
-    <p>Privacy Policy:</p>
-    <p><strong>A King's Comeback:</strong> <a href="akc/privacy-policy.html">privacy policy</a></p>
-    
-    <p>If you have any questions you can contact us at:</p>
-    <p><strong>Email:</strong> <a href="mailto:rebootgames30@gmail.com">rebootgames30@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div class="game">
+            <div class="game-info">
+              <h3>A Tiny Quest</h3>
+              <p>An intense platforming adventure where precision and timing rule. Survive traps, master wall jumps, and uncover secrets.</p>
+        
+              <!-- Optional images -->
+              <div class="game-images">
+                <img src="img/atq1.png" alt="A Tiny Quest" />
+                <img src="img/atq2.png" alt="A Tiny Quest" />
+              </div>
+        
+              <!-- Store buttons -->
+              <div class="get-buttons">
+                <a class="store-button" href="https://reboot-games.itch.io/tiny-quest" target="_blank">
+                  <span class="store-line-1">Download on</span>
+                  <span class="store-line-2">itch.io</span>
+                </a>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      </section>
+
+    <section>
+      <h2>Privacy Policy</h2>
+      <p><strong>A King's Comeback:</strong> <a href="akc/privacy-policy.html">Privacy Policy</a></p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>If you have any questions you can contact us at:</p>
+      <p><strong>Email:</strong> <a href="mailto:rebootgames30@gmail.com">rebootgames30@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Reboot Games. All rights reserved.
+  </footer>
 </body>
 </html>
